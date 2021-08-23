@@ -1,18 +1,18 @@
 {
-    "name": "sbercoind-rpc",
-    "description": "SBER Chain Client Library to connect to SBER Core via RPC",
-    "version": "0.0.3",
+    "name": "btcbamcoindd-rpc",
+    "description": "BTCBAM Client Library to connect to BTCBAM Core via RPC",
+    "version": "0.0.1",
     "author": {},
     "contributors": [],
     "keywords": [
         "blockchain solutions",
-        "sbercoin chain",
-        "sbercoin",
+        "btcbamcoind chain",
+        "btcbamcoind",
         "rpc"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SbercoinCom/sbercoind-rpc.git"
+        "url": "git+https://github.com/aw7855689/btcbamcoindd-rpc.git"
     },
     "license": "MIT",
     "main": "lib/index.js",
@@ -29,9 +29,9 @@
         "sinon": "^1.12.2"
     },
     "bugs": {
-        "url": "https://github.com/SbercoinCom/sbercoind-rpc/issues"
+        "url": "https://github.com/aw7855689/btcbamcoindd-rpc/issues"
     },
-    "homepage": "https://github.com/SbercoinCom/sbercoind-rpc",
+    "homepage": "https://github.com/aw7855689/btcbamcoindd-rpc",
     "directories": {},
     "readme": "ERROR: No README data found!"
 }

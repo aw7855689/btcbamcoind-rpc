@@ -1,22 +1,22 @@
-sbercoind-rpc.js
+btcbamcoindd-rpc.js
 ===============
 
-A client library to connect to SBER Core RPC in JavaScript.
+A client library to connect to BTCBAM Core RPC in JavaScript.
 
 ## Get Started
 
-sbercoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+btcbamcoindd-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install sbercoind-rpc
+npm install btcbamcoindd-rpc
 ```
 
 ## Examples
 
 ```javascript
 var run = function() {
-  var sbercoincore = require('sbercoincore');
-  var RpcClient = require('sbercoind-rpc');
+  var btcbamcoindcore = require('btcbamcoindcore');
+  var RpcClient = require('btcbamcoindd-rpc');
 
   var config = {
     protocol: 'http',
@@ -52,7 +52,7 @@ var run = function() {
         }
 
         rawtxs.map(function (rawtx) {
-          var tx = new sbercoincore.Transaction(rawtx.result);
+          var tx = new btcbamcoindcore.Transaction(rawtx.result);
           console.log('\n\n\n' + tx.id + ':', tx.toObject());
         });
 

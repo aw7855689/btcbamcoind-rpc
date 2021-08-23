@@ -1,14 +1,14 @@
-btcbamcoindd-rpc.js
+btcbamcoind-rpc.js
 ===============
 
 A client library to connect to BTCBAM Core RPC in JavaScript.
 
 ## Get Started
 
-btcbamcoindd-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
+btcbamcoind-rpc.js runs on [node](http://nodejs.org/), and can be installed via [npm](https://npmjs.org/):
 
 ```bash
-npm install btcbamcoindd-rpc
+npm install btcbamcoind-rpc
 ```
 
 ## Examples
@@ -16,7 +16,7 @@ npm install btcbamcoindd-rpc
 ```javascript
 var run = function() {
   var btcbamcoindcore = require('btcbamcoindcore');
-  var RpcClient = require('btcbamcoindd-rpc');
+  var RpcClient = require('btcbamcoind-rpc');
 
   var config = {
     protocol: 'http',

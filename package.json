@@ -1,5 +1,5 @@
 {
-    "name": "btcbamcoindd-rpc",
+    "name": "btcbamcoind-rpc",
     "description": "BTCBAM Client Library to connect to BTCBAM Core via RPC",
     "version": "0.0.1",
     "author": {},
@@ -12,7 +12,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/aw7855689/btcbamcoindd-rpc.git"
+        "url": "git+https://github.com/aw7855689/btcbamcoind-rpc.git"
     },
     "license": "MIT",
     "main": "lib/index.js",
@@ -29,9 +29,9 @@
         "sinon": "^1.12.2"
     },
     "bugs": {
-        "url": "https://github.com/aw7855689/btcbamcoindd-rpc/issues"
+        "url": "https://github.com/aw7855689/btcbamcoind-rpc/issues"
     },
-    "homepage": "https://github.com/aw7855689/btcbamcoindd-rpc",
+    "homepage": "https://github.com/aw7855689/btcbamcoind-rpc",
     "directories": {},
     "readme": "ERROR: No README data found!"
 }

@@ -1,7 +1,7 @@
 {
-    "name": "btcbamcoind-rpc",
+    "name": "btcbamd-rpc",
     "description": "BTCBAM Client Library to connect to BTCBAM Core via RPC",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {},
     "contributors": [],
     "keywords": [
